@@ -1,0 +1,25 @@
+*{
+    margin: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cont{
+    height: 100vh;width: 100vh;background:conic-gradient(from 555deg,#211951,#31257d,#0f5643,#18265e);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.flower1{
+    height:100px; width:100px;
+    animation: rotation 10000ms infinite ease-in 0ms; 
+}
+button{
+    border: #F0F3FF 3px solid;border-radius: 5px;color: white;background-color: black;
+}
+@keyframes rotation{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
