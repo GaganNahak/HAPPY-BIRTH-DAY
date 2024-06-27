@@ -1,5 +1,5 @@
-*{
-    margin: 10px;
+ *{
+    margin: 7px;
 }
 body{
     display: flex;
@@ -7,19 +7,22 @@ body{
     align-items: center;
 }
 #cont{
-    height: 100vh;width: 100vh;background:conic-gradient(from 555deg,#211951,#31257d,#0f5643,#18265e);
+    height: 100vh;width: 100vh;background:conic-gradient(from 555deg,#211951,#31257d,#0f5643,#18265e,#211951);
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 .flower1{
     height:100px; width:100px;
-    animation: rotation 6p00ms infinite linear 0ms; 
+    animation: rotation 5000ms infinite linear 0ms; 
 }
 button{
-    border: #F0F3FF 3px solid;border-radius: 5px;color: white;background-color: black;
+    border: #F0F3FF 1px solid;border-radius: 5px;color: white;background-color: black;
+    box-shadow: 0 0 30px white;
+    scale: 1.6;
+    font-size: 5px;;
 }
 @keyframes rotation{
-    0%{transform: rotate(0deg);}
-    100%{transform: rotate(360deg);}
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
