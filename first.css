@@ -14,7 +14,7 @@ body{
 }
 .flower1{
     height:100px; width:100px;
-    animation: rotation 1000ms infinite ease-in 0ms; 
+    animation: rotation 6p00ms infinite linear 0ms; 
 }
 button{
     border: #F0F3FF 3px solid;border-radius: 5px;color: white;background-color: black;
