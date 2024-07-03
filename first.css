@@ -14,9 +14,6 @@ body{
 }
 .flower1{
     height:100px; width:100px;
-    -webkit-box-reflect: below
-
-1px linear-gradient(transparent, #0005);
     animation: rotation 5000ms infinite linear 0ms; 
 }
 button{
