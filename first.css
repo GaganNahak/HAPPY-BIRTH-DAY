@@ -21,7 +21,10 @@ button{
     box-shadow: 0 0 30px white;
     animation: but 5s infinite ;
     scale: 1.6;
-    font-size: 5px;;
+    font-size: 5px;
+   -webkit-box-reflect: below
+
+1px linear-gradient(transparent, #0005); ;
 }
 @keyframes rotation{
     from{transform: rotate(0deg);}
